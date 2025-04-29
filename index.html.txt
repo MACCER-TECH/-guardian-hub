@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guardian Hub</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAAAyCAMAAACzAr72AAAAXVBMVEX///8AAADv7+/k5OT19fXy8vLt7e3c3NzT09O+vr62traZmZm8vLzd3d3o6OihoaF2dnahoaG2traUlJRtbW3Nzc0jIyP5+fnGxsaSkpKJiYmBgYEeHh7Q0NBLS0upqakbGxsAAADfpy8wAAAEjUlEQVR4nO2aiXLCMBCFBSEItNZZ933//wzMKSqkxqEd95SGfnWbWjsJzTfFgFhpgQgghhBBCiGHg6Tu15W2XY7w8H5p8LEoB3Lz0CUMgC7e93Pqdex3+yHwCUzwi9qQoFhDqQl+WIZIzpgTcwEdE9g6xBMUdAKumgAg3Hbg6AU3V5lZKpQwTmkz0OWSr0z9fGyfCqsPfYtn+pYhVAnfj8ISzM5cK3tH5KK+2SO7c8pTw7ZUd3Mu4Z1RxUWTz7Z7PQz1UwqtWVm9TfJIN9Lb7VK7rsOT/AjvLPAy5QOWaL6L8e8PbLp5HzGJrNm4c8bKXe+1VeTArqDQ/gvyVXbpok/2ka6cNG6SezShZkUGo5ES+xkSlYVTHbUv3S1RPW4a5zOebWquwiPBXz+YBoZEpcQ1q7lU+mlP4Rxn8DqZrcPzRbszckcvnUnC3AKmRffb6lTve69eW2j3VaKddNsHy6yzGvRLR87zD59hRQ6hSxzuvjRAAAAAElFTkSuQmCC" alt="Guardian Hub Logo" class="logo">
+
+  <h1>Guardian Hub</h1>
+  <nav>
+    <ul>
+      <li><a href="#builds">Builds</a></li>
+      <li><a href="#weapons">Weapons</a></li>
+      <li><a href="#armor">Armor</a></li>
+      <li><a href="#vendors">Vendors</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="builds">
+    <h2>Top Builds</h2>
+    <div id="builds-content">Loading builds...</div>
+  </section>
+
+  <section id="weapons">
+    <h2>Top Weapons</h2>
+    <div id="weapons-content">Loading weapons...</div>
+  </section>
+
+  <section id="armor">
+    <h2>Best Armor Rolls</h2>
+    <div id="armor-content">Loading armor...</div>
+  </section>
+
+  <section id="vendors">
+    <h2>Vendors Info</h2>
+    <div id="vendors-content">Loading vendors...</div>
+  </section>
+
+  <section id="ai-helper">
+    <h2>Guardian AI Assistant</h2>
+    <input type="text" id="user-question" placeholder="Ask about builds, weapons, armor...">
+    <button onclick="askAI()">Ask</button>
+    <div id="ai-response"></div>
+  </section>
+</main>
+
+<footer>
+  <p>Guardian Hub © 2025</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
